@@ -4,9 +4,10 @@ import logging
 import subprocess
 from datetime import datetime
 from pathlib import Path
-from typing import List, Dict
+from typing import List, Dict, Optional
 
 import telegram
+import requests
 
 
 # --------------------------
@@ -17,6 +18,14 @@ class EnvConfig:
     BOT_TOKEN = os.getenv("BOT_TOKEN")  # Telegram机器人Token
     CHAT_ID = os.getenv("CHAT_ID")  # Telegram频道/群组ID
     LARK_KEY = os.getenv("LARK_KEY")  # 飞书机器人Webhook Key
+
+
+def get_proxy() -> Optional[Dict[str, str]]:
+    """获取代理配置（PROXY_URL 环境变量），用于连接 Telegram/飞书"""
+    proxy_url = os.getenv("PROXY_URL")
+    if not proxy_url:
+        return None
+    return {"http": proxy_url, "https": proxy_url}
 
 
 class PathConfig:
@@ -86,8 +95,10 @@ def send_telegram_alert(screen_name: str) -> bool:
             screen_name=screen_name
         )
 
-        # 初始化机器人
-        bot = telegram.Bot(token=EnvConfig.BOT_TOKEN)
+        # 初始化机器人（走代理连接 Telegram）
+        proxy = get_proxy()
+        request = telegram.utils.request.Request(proxy_url=proxy['https']) if proxy else None
+        bot = telegram.Bot(token=EnvConfig.BOT_TOKEN, request=request)
 
         # 发送消息(静默模式)
         bot.send_message(
@@ -121,7 +132,7 @@ def send_lark_alert(message: str) -> bool:
             "msg_type": "text",
             "content": {"text": f"🔔 INI-XT-Bot告警\n{message}"}
         }
-        resp = requests.post(webhook_url, json=payload, timeout=10)
+        resp = requests.post(webhook_url, json=payload, timeout=10, proxies=get_proxy())
         resp.raise_for_status()
         logger.info("📨 飞书告警发送成功")
         return True

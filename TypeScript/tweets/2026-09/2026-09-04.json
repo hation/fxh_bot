@@ -1,0 +1,704 @@
+[
+  {
+    "user": {
+      "screenName": "yoheinakajima",
+      "name": "Yohei"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/yoheinakajima/status/2095545911569273266",
+    "fullText": "another framework where the agent state is projected from its immutable log (@activegraphai style), check it out:",
+    "publishTime": "2026-09-04T00:14:13"
+  },
+  {
+    "user": {
+      "screenName": "lxfater",
+      "name": "铁锤人"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HRTjdieaAAQBtne.jpg"
+    ],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/lxfater/status/2095549836313624909",
+    "fullText": "悲剧性的一天，GPT、Claude、Grok全炸了\n\n更悲剧的是，你发现花大价钱在中转站购买的GPT5.6 Sol API还能用！！\n\n下面是中转站群主给你的解释👇 https://t.co/3anR2OR5b5",
+    "publishTime": "2026-09-04T00:29:49"
+  },
+  {
+    "user": {
+      "screenName": "GergelyOrosz",
+      "name": "Gergely Orosz"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HRTuriHacAA7f4r.jpg"
+    ],
+    "videos": [],
+    "expandUrls": [
+      "https://blog.pragmaticengineer.com/how-software-engineering-is-changing-an-essay-challenge/"
+    ],
+    "tweetUrl": "https://x.com/GergelyOrosz/status/2095562537500614904",
+    "fullText": "Write about how software engineering is changing inside your company / team / project. Don’t use AI. Win $10K and get published in The Pragmatic Engineer.\n\nYou have a month: submit by 4 October.\n\nGo :)\n\nDetails: https://t.co/9s6CTRroJk https://t.co/Rk2KkgIDtO",
+    "publishTime": "2026-09-04T01:20:17"
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2095573588891869411",
+    "fullText": "True",
+    "publishTime": "2026-09-04T02:04:12"
+  },
+  {
+    "user": {
+      "screenName": "dotey",
+      "name": "宝玉"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/dotey/status/2095577562873233859",
+    "fullText": "这个 AI 转型变化仔细想想合理的：\n\n1. 无法拥抱 AI 的技术负责人会拖累整体开发速度\n\n2. 当开发不是瓶颈，那么决定做什么会更重要，所以需要更多产品经理。\n如果一部分开发能兼做开发和产品经理可能更好，未来既懂产品又有开发基础会很吃香。\n\n3. QA/测试没看到变化，理论上来说 QA 可以用 AI",
+    "publishTime": "2026-09-04T02:19:59"
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2095583963003728109",
+    "fullText": "Cybercabs have no steering wheels or pedals. They are designed and built for maximally efficient autonomous operation.",
+    "publishTime": "2026-09-04T02:45:25"
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2095584908852805643",
+    "fullText": "Cybercab is basically a super comfortable lounge on wheels with a great TV and epic sound",
+    "publishTime": "2026-09-04T02:49:11"
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HRUHnJgWkAka9b0.jpg"
+    ],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2095589575573839881",
+    "fullText": "Just when you were least suspecting it https://t.co/Pzdc9zb6bu",
+    "publishTime": "2026-09-04T03:07:43"
+  },
+  {
+    "user": {
+      "screenName": "bcherny",
+      "name": "Boris Cherny"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [
+      "https://github.com/anthropics/claude-code/issues/91870"
+    ],
+    "tweetUrl": "https://x.com/bcherny/status/2095590515765060076",
+    "fullText": "Your input needed: would you use this?\n\nThis is an early look at how we're thinking about making Claude Code way more extensible. It's a little crazy, and very exciting.\n\nMore details here: https://t.co/X2SbdZYxvi",
+    "publishTime": "2026-09-04T03:11:27"
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2095598839860285551",
+    "fullText": "Yes, we are indeed entering a literal golden era of transport 😂\n\nThat’s why Cybercab is gold!",
+    "publishTime": "2026-09-04T03:44:32"
+  },
+  {
+    "user": {
+      "screenName": "dotey",
+      "name": "宝玉"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/dotey/status/2095599945835303415",
+    "fullText": "GPT-6 Astra 来了，Greg 说“欢迎来到 AGI 时代”\n\nOpenAI 今天（9 月 3 日）发布 GPT-6 Astra，自称“世界上最聪明、对齐最好的模型”。\n\n总裁 Greg Brockman 在发布前的媒体沟通会上说得：他个人认为 OpenAI 已经做到了 AGI，“未来回头看，可能就是这个模型”。",
+    "publishTime": "2026-09-04T03:48:56"
+  },
+  {
+    "user": {
+      "screenName": "sama",
+      "name": "Sam Altman"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/sama/status/2095600005772104059",
+    "fullText": "GPT-6 Astra is here.\n\nWe hope it will begin to enable a new generation of entrepreneurship, scientific discovery, and building.\n\nWe believe it is the best model in the world for computer use, professional work, science, coding, cybersecurity, and more.\n\nIt took us some extra time",
+    "publishTime": "2026-09-04T03:49:10"
+  },
+  {
+    "user": {
+      "screenName": "sama",
+      "name": "Sam Altman"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [
+      "https://openai.com/index/gpt-6-astra/"
+    ],
+    "tweetUrl": "https://x.com/sama/status/2095600429363302720",
+    "fullText": "We hit a little snag getting the blog post deployed, but it is really great:\n\nhttps://t.co/jjqXUWfrNW",
+    "publishTime": "2026-09-04T03:50:51"
+  },
+  {
+    "user": {
+      "screenName": "sama",
+      "name": "Sam Altman"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/sama/status/2095601211869421726",
+    "fullText": "We are working towards getting Astra in everyone's hands as quickly as we can; I know it is frustrating and I appreciate the patience. It should be quick.",
+    "publishTime": "2026-09-04T03:53:57"
+  },
+  {
+    "user": {
+      "screenName": "sama",
+      "name": "Sam Altman"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/sama/status/2095601442220638547",
+    "fullText": "Also, this is my favorite OpenAI video so far. It makes me excited for the future!",
+    "publishTime": "2026-09-04T03:54:52"
+  },
+  {
+    "user": {
+      "screenName": "dotey",
+      "name": "宝玉"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/dotey/status/2095602798553448462",
+    "fullText": "以前 OpenAI 忽悠我们订阅 Pro 的时候，说能优先用这些新发布的模型的，现在也学坏了",
+    "publishTime": "2026-09-04T04:00:16"
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2095603483919491237",
+    "fullText": "And we are taking corrective action to ensure this does not happen again",
+    "publishTime": "2026-09-04T04:02:59"
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2095603777302659202",
+    "fullText": "Unreal ftw @EpicGames",
+    "publishTime": "2026-09-04T04:04:09"
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2095604997668892983",
+    "fullText": "Probably over 30k people working in high-paying jobs at Tesla HQ &amp; manufacturing in Austin by 2028!",
+    "publishTime": "2026-09-04T04:09:00"
+  },
+  {
+    "user": {
+      "screenName": "dotey",
+      "name": "宝玉"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/dotey/status/2095605897149989345",
+    "fullText": "这点 Codex 就比 Claude Code 良心多了，你可以用 100% 的 GPT-6 Astra 额度，而不是像 Claude 只能 50% Fable。\n\n现在的问题是：什么时候可以在 Codex 用上 GPT-6 Astra？",
+    "publishTime": "2026-09-04T04:12:35"
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2095608838837731528",
+    "fullText": "I’m so glad this is being done!\n\nAn important next step is making it autonomous.",
+    "publishTime": "2026-09-04T04:24:16"
+  },
+  {
+    "user": {
+      "screenName": "GergelyOrosz",
+      "name": "Gergely Orosz"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HRUdQWva0AA1pD6.jpg"
+    ],
+    "videos": [],
+    "expandUrls": [
+      "https://policies.google.com/terms"
+    ],
+    "tweetUrl": "https://x.com/GergelyOrosz/status/2095613570469740595",
+    "fullText": "@OfficialLoganK Apparently, Antigravity ToS is governed by Google ToS.\n\nYou know what Google ToS says?\n\nThat Google can suspend or terminate your account ALSO if you breach any service-specific ToS, such as the Antigravity ToS\n\nThis governs Google services\n\nGoogle ToS: https://t.co/iPfbS1AiDP https://t.co/s5199QMaMW",
+    "publishTime": "2026-09-04T04:43:04"
+  },
+  {
+    "user": {
+      "screenName": "GergelyOrosz",
+      "name": "Gergely Orosz"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HRUeJpabQAA5sql.jpg"
+    ],
+    "videos": [],
+    "expandUrls": [
+      "https://x.com/_mohansolo/status/2095592250839302432"
+    ],
+    "tweetUrl": "https://x.com/GergelyOrosz/status/2095614384911360395",
+    "fullText": "@OfficialLoganK I appreciate Antigravity updated their ToS to make it clear they won't ban you Google account for breaching terms (eg running OpenClaw)\n\nGoogle ToS makes it clear Google can totally do this if Anrigravity ToS is breached tho (by eg running OpenClaw) tho\n\nhttps://t.co/ituwHdQoHV https://t.co/rSforZEREr",
+    "publishTime": "2026-09-04T04:46:18"
+  },
+  {
+    "user": {
+      "screenName": "swyx",
+      "name": "swyx"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HRUk3tUaAAAMfDp.jpg",
+      "https://pbs.twimg.com/media/HRUk4E5aoAA4r2g.jpg",
+      "https://pbs.twimg.com/media/HRUk40LaMAAEOzc.jpg"
+    ],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/swyx/status/2095621785953984782",
+    "fullText": "sorry for the radio silence folks - got sucked into extreme LLM psychosis. but i can confidently say we have crossed over into a new age of AI Engineering and we are never, ever, looking back. \n\nthis isnt even EVERYTHING i did with Astra but i'll append more reports as I publish https://t.co/YuRM93ePWs",
+    "publishTime": "2026-09-04T05:15:43"
+  },
+  {
+    "user": {
+      "screenName": "swyx",
+      "name": "swyx"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [
+      "https://www.latent.space/p/astra"
+    ],
+    "tweetUrl": "https://x.com/swyx/status/2095621819667751202",
+    "fullText": "https://t.co/Od9xM46qi5",
+    "publishTime": "2026-09-04T05:15:51"
+  },
+  {
+    "user": {
+      "screenName": "GergelyOrosz",
+      "name": "Gergely Orosz"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/GergelyOrosz/status/2095644797058863253",
+    "fullText": "The second startup with kickass engineers in two weeks who sent over an eng blog post about a cool thing they built that is... TERRIBLE\n\nBecause it is 95% or more AI\n\nA punishment to read. Half the thing not defined when you put in the effort to parse the overcomplicated",
+    "publishTime": "2026-09-04T06:47:09"
+  },
+  {
+    "user": {
+      "screenName": "GergelyOrosz",
+      "name": "Gergely Orosz"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/GergelyOrosz/status/2095645055922888927",
+    "fullText": "Good, human, writing, by a competent engineer suddenly feels SO REFRESHING to read, because it is becoming very, very sparse.\n\nYou can immediately tell when you read something like this.\n\nStartups: forget AI writing if you want to stand out.",
+    "publishTime": "2026-09-04T06:48:11"
+  },
+  {
+    "user": {
+      "screenName": "Khazix0918",
+      "name": "数字生命卡兹克"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [
+      "https://x.com/i/article/2095649392716120064"
+    ],
+    "tweetUrl": "https://x.com/Khazix0918/status/2095652304422838357",
+    "fullText": "https://t.co/yC3ERbZVUT",
+    "publishTime": "2026-09-04T07:16:59"
+  },
+  {
+    "user": {
+      "screenName": "lxfater",
+      "name": "铁锤人"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/lxfater/status/2095653174770343961",
+    "fullText": "假如GPT-6 Astra真的强到能替代人类工作\n\n当智力不再是稀缺资源，会发生什么呢？",
+    "publishTime": "2026-09-04T07:20:26"
+  },
+  {
+    "user": {
+      "screenName": "Khazix0918",
+      "name": "数字生命卡兹克"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/Khazix0918/status/2095654766936531059",
+    "fullText": "义父！！！！！！！！！！！！！！！！！！！！！\n这下A➗是真的小丑🤡了",
+    "publishTime": "2026-09-04T07:26:46"
+  },
+  {
+    "user": {
+      "screenName": "oran_ge",
+      "name": "Orange AI"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HRU9CKma0AEQUea.jpg"
+    ],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/oran_ge/status/2095657325671612679",
+    "fullText": "OpenAI 今天凌晨公布了全新架构的 GPT-6 Astra 群星\n但最让人欣慰的是，人类终于不再卷 coding，去瞄准科学的星辰大海了\nOpenAI 内部将其视为第一个 AGI 时代的模型\n这个模型在科学研究和抽象推理方面大幅提升\n而且这个模型的智力模式非常特别\n相比其他模型，可以大幅减少推理步骤，以更少 Token https://t.co/sp0wVZwgaM",
+    "publishTime": "2026-09-04T07:36:56"
+  },
+  {
+    "user": {
+      "screenName": "dotey",
+      "name": "宝玉"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/dotey/status/2095660868369289541",
+    "fullText": "哇，这个要点赞，在 GPT-6 Astra 能使用之前，Codex 每天送一次重置机会，这个是可以累积的，你可以自己选什么时候用就什么时候用。不过没说这个有效期，至少应该一个月吧。\n\n首次重置额度将在大约 3 小时后到账。如果还没有账号，现在注册也还来得及。",
+    "publishTime": "2026-09-04T07:51:01"
+  },
+  {
+    "user": {
+      "screenName": "oran_ge",
+      "name": "Orange AI"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/oran_ge/status/2095667163751465205",
+    "fullText": "Grok Bot 的产品设计师分享的一些背后的思考\n都是非常真实的实践和解法\n值得一看",
+    "publishTime": "2026-09-04T08:16:02"
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2095668208090959941",
+    "fullText": "Grok @Bot Enterprise is now available",
+    "publishTime": "2026-09-04T08:20:11"
+  },
+  {
+    "user": {
+      "screenName": "oran_ge",
+      "name": "Orange AI"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/oran_ge/status/2095668447896289586",
+    "fullText": "老实说，看完 GPT6 的介绍并没有感到很惊艳 \n为什么感觉不到 AGI？",
+    "publishTime": "2026-09-04T08:21:08"
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2095669235993252297",
+    "fullText": "Starlink will allow you to watch 4k live video while riding in Cybercab",
+    "publishTime": "2026-09-04T08:24:16"
+  },
+  {
+    "user": {
+      "screenName": "vista8",
+      "name": "向阳乔木"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HRVW0jVaUAAacuv.jpg"
+    ],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/vista8/status/2095676777830256985",
+    "fullText": "著名去背景在线工具 Remove bg 年底就要关停了啊。 https://t.co/NJ0xVmm6SE",
+    "publishTime": "2026-09-04T08:54:14"
+  },
+  {
+    "user": {
+      "screenName": "sama",
+      "name": "Sam Altman"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/sama/status/2095678759651438887",
+    "fullText": "first, sorry for the messy rollout.\n\nsecond, when we screw up, we try to make it right.\n\nthird, we should be able to begin broad rollout to API customers and chatgpt subscribers in the near future. as usual we will start with pro subscribers.",
+    "publishTime": "2026-09-04T09:02:06"
+  },
+  {
+    "user": {
+      "screenName": "vista8",
+      "name": "向阳乔木"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HRVY-Q8aYAABUM6.jpg"
+    ],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/vista8/status/2095680322272952448",
+    "fullText": "我去，著名产品人Lenny这篇文章的含金量太高了！\n\n从大模型原理出发，给出提示词示例，让你学会用AI给出真正有创意、有个人风格的 UI 设计。\n\n比如大模型只是下一个token预测，所以提示词中用shell脚本生成随机数。\n\n让模型基于随机数来定义创意方向！\n\n文中还有其他技巧，提示词价值还是被低估了。 https://t.co/7AYnwW2jCq",
+    "publishTime": "2026-09-04T09:08:19"
+  },
+  {
+    "user": {
+      "screenName": "vista8",
+      "name": "向阳乔木"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [
+      "https://www.lennysnewsletter.com/p/how-to-turn-your-ai-into-a-world"
+    ],
+    "tweetUrl": "https://x.com/vista8/status/2095680364920688967",
+    "fullText": "文章地址 https://t.co/1poq1JJdb0",
+    "publishTime": "2026-09-04T09:08:29"
+  },
+  {
+    "user": {
+      "screenName": "Khazix0918",
+      "name": "数字生命卡兹克"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HRVgMlsaEAAdsbr.png"
+    ],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/Khazix0918/status/2095688501891354915",
+    "fullText": "看到GPT-6 Astra发布之后，作为一个博主很激动。\n但写完稿子以后，躺在床上久久不能入眠。\n\n作为一家30多个人的公司的企业管理者，这个时候却又会很真实的焦虑。\n我怕这个时代太快，我们的团队、我们的组织跟不上。\n\n只能尽可能向大家表达我的想法、还有我的认知。\n尽可能让我们的小伙伴，更加的AI https://t.co/0cWEFnNMS7",
+    "publishTime": "2026-09-04T09:40:49"
+  },
+  {
+    "user": {
+      "screenName": "dotey",
+      "name": "宝玉"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/dotey/status/2095699332200645018",
+    "fullText": "看来 Pro 还是能先用上 GPT-6 Astra",
+    "publishTime": "2026-09-04T10:23:51"
+  },
+  {
+    "user": {
+      "screenName": "xiaohu",
+      "name": "小互"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/xiaohu/status/2095700672327123215",
+    "fullText": "Namespace 宣布与 Cursor 达成合作\n\n为Cursor 的“云端 AI Agents”提供云端运行电脑\n\n大多数云端 Agent 只能跑在 Linux 环境下，无法处理 iOS 或 macOS 专属项目的构建与打包。\n\n牛P的是：\n\nNamespace 提供了基于苹果 M5 芯片的真实 Mac 开发机，让 Cursor Agent 可以直接编译苹果生态的应用\n\nCursor",
+    "publishTime": "2026-09-04T10:29:11"
+  },
+  {
+    "user": {
+      "screenName": "dotey",
+      "name": "宝玉"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/dotey/status/2095708319037972770",
+    "fullText": "Devin 在抽奖，去原推回复有机会获得号称价值$10000的Devin免费token用量",
+    "publishTime": "2026-09-04T10:59:34"
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2095716454456787036",
+    "fullText": "The future of transportation",
+    "publishTime": "2026-09-04T11:31:53"
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2095717295192486239",
+    "fullText": "Cybercab safety",
+    "publishTime": "2026-09-04T11:35:14"
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2095718694328393975",
+    "fullText": "Join @SpaceXAI in Memphis",
+    "publishTime": "2026-09-04T11:40:47"
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2095719587929039200",
+    "fullText": "Having electric brakes avoids the complexity of a hydraulic system: no need to rout plumbing all around the car",
+    "publishTime": "2026-09-04T11:44:21"
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2095720611695759704",
+    "fullText": "The Cybercab motor uses no rare earth metals, but maintains the same range! \n\nThis was extremely hard to achieve.",
+    "publishTime": "2026-09-04T11:48:25"
+  },
+  {
+    "user": {
+      "screenName": "sama",
+      "name": "Sam Altman"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/sama/status/2095731348996821200",
+    "fullText": "We are also excited!",
+    "publishTime": "2026-09-04T12:31:05"
+  },
+  {
+    "user": {
+      "screenName": "dotey",
+      "name": "宝玉"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/dotey/status/2095757297964237033",
+    "fullText": "帮转招人信息👍",
+    "publishTime": "2026-09-04T14:14:11"
+  },
+  {
+    "user": {
+      "screenName": "swyx",
+      "name": "swyx"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [
+      "https://x.com/latentspacepod/status/2095757111854866639"
+    ],
+    "tweetUrl": "https://x.com/swyx/status/2095757526726025348",
+    "fullText": "the reception is unlike anything i thought possible for a 2026 OAI launch\n\nhttps://t.co/Aq3y6fT6Ip",
+    "publishTime": "2026-09-04T14:15:06"
+  },
+  {
+    "user": {
+      "screenName": "GergelyOrosz",
+      "name": "Gergely Orosz"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/GergelyOrosz/status/2095773638121181668",
+    "fullText": "When it comes to writing w AI, there’s such a cognitive dissonance between the person writing vs those reading.\n\nThose writing: “AI saves so much effort! And it’s much better vs what I’d have written! People will think I’m so articulated.”\n\nThose reading: “WTH is this AI slop?!!”",
+    "publishTime": "2026-09-04T15:19:07"
+  },
+  {
+    "user": {
+      "screenName": "vista8",
+      "name": "向阳乔木"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/vista8/status/2095798300385636810",
+    "fullText": "著名播客潜空间对GPT6-Astra 的长篇评论，集合了多方评测，简单总结：\n\n1. GPT6-Astra 在 Coding Agent能力上与Claude Opus 5、Fable 5差不多，但落后于 Fable 5.1。\n\n综合智能指数，部分维度甚至落后于GPT5.6。\n优势是Token效率高，特定任务很优秀，比如Computer Use等。\n\n2.",
+    "publishTime": "2026-09-04T16:57:07"
+  },
+  {
+    "user": {
+      "screenName": "vista8",
+      "name": "向阳乔木"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [
+      "https://www.latent.space/p/ainews-gpt-6-astra-openais-biggest"
+    ],
+    "tweetUrl": "https://x.com/vista8/status/2095798366206824617",
+    "fullText": "网页地址：https://t.co/jaZhVlCkpA",
+    "publishTime": "2026-09-04T16:57:23"
+  }
+]

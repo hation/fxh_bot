@@ -19,6 +19,9 @@ coverage/
 .cypress/
 .pnpm-store/
 
+# 运行产生的响应缓存
+resp/
+
 # 其他
 *.log
 npm-debug.log*

@@ -32,7 +32,7 @@ export async function processHomeTimeline() {
         let allUsers = [];
         let pageCount = 0;
         let emptyCount = 0;
-        const requestInterval = 5000;
+        const requestInterval = 20000;
 
         do {
             pageCount++;

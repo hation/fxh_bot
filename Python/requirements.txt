@@ -1,3 +1,5 @@
 python-telegram-bot==13.7
 requests==2.32.3
 redis==4.5.5
+urllib3<2
+PySocks==1.7.1

@@ -42,6 +42,14 @@ class Config:
             'lark_key': os.getenv('LARK_KEY')
         }
 
+    @staticmethod
+    def get_proxy() -> Optional[Dict[str, str]]:
+        """获取代理配置（从 PROXY_URL 环境变量），用于下载媒体文件"""
+        proxy_url = os.getenv('PROXY_URL')
+        if not proxy_url:
+            return None
+        return {'http': proxy_url, 'https': proxy_url}
+
 
 # --------------------------
 # 异常类 (保持原始自定义异常)
@@ -109,7 +117,7 @@ class Notifier:
                 "msg_type": "text",
                 "content": {"text": f"📢 动态更新\n{message}"}  # 自定义友好前缀
             }
-            response = requests.post(webhook_url, json=payload, timeout=10)
+            response = requests.post(webhook_url, json=payload, timeout=10, proxies=Config.get_proxy())
             response.raise_for_status()
             logger.info("📨 飞书动态消息发送成功")
             return True
@@ -133,7 +141,7 @@ class Notifier:
                 "msg_type": "text",
                 "content": {"text": f"📢 XT-Bot处理告警\n{truncated_msg}"}
             }
-            response = requests.post(webhook_url, json=payload, timeout=10)
+            response = requests.post(webhook_url, json=payload, timeout=10, proxies=Config.get_proxy())
             response.raise_for_status()
             logger.info("📨 飞书通知发送成功")
             return True
@@ -223,7 +231,12 @@ class DownloadManager:
 
         try:
             logger.info(f"⏬ 开始下载: {item['file_name']}")
-            response = requests.get(item['url'], stream=True, timeout=30)
+            response = requests.get(
+                item['url'],
+                stream=True,
+                timeout=30,
+                proxies=Config.get_proxy()
+            )
             response.raise_for_status()
 
             file_path = processor.download_path / item['file_name']
@@ -283,6 +296,58 @@ class DownloadManager:
 
 
 # --------------------------
+# Telegram API 封装（用 requests 直接调 Bot API，绕开 python-telegram-bot 老库的代理兼容问题）
+# --------------------------
+class TelegramApi:
+    """基于 requests 的 Telegram Bot API 客户端（支持 socks5/http 代理）"""
+
+    def __init__(self, bot_token: str):
+        self.base_url = f"https://api.telegram.org/bot{bot_token}"
+        self.proxies = Config.get_proxy()
+
+    def _request(self, method: str, **params):
+        url = f"{self.base_url}/{method}"
+        resp = requests.post(url, data=params, timeout=60, proxies=self.proxies)
+        resp.raise_for_status()
+        data = resp.json()
+        if not data.get('ok'):
+            raise RuntimeError(f"Telegram API 错误: {data.get('description')}")
+        return data['result']
+
+    def send_message(self, chat_id, text, **kwargs):
+        return self._request('sendMessage', chat_id=chat_id, text=text, **kwargs)
+
+    def send_photo(self, chat_id, photo, caption=None, **kwargs):
+        url = f"{self.base_url}/sendPhoto"
+        resp = requests.post(
+            url,
+            data={'chat_id': chat_id, 'caption': caption or ''},
+            files={'photo': photo},
+            timeout=120,
+            proxies=self.proxies
+        )
+        data = resp.json()
+        if not data.get('ok'):
+            raise RuntimeError(f"Telegram API 错误: {data.get('description')} (完整响应: {resp.text[:200]})")
+        return data['result']
+
+    def send_video(self, chat_id, video, caption=None, **kwargs):
+        url = f"{self.base_url}/sendVideo"
+        resp = requests.post(
+            url,
+            data={'chat_id': chat_id, 'caption': caption or ''},
+            files={'video': video},
+            timeout=120,
+            proxies=self.proxies
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        if not data.get('ok'):
+            raise RuntimeError(f"Telegram API 错误: {data.get('description')}")
+        return data['result']
+
+
+# --------------------------
 # 上传模块 (保持原始截断逻辑)
 # --------------------------
 class UploadManager:
@@ -293,7 +358,7 @@ class UploadManager:
         if not env_vars['bot_token'] or not env_vars['chat_id']:
             logger.error("❌ 必须配置 BOT_TOKEN 和 CHAT_ID 环境变量！")
             sys.exit(1)
-        self.bot = telegram.Bot(token=env_vars['bot_token'])
+        self.bot = TelegramApi(env_vars['bot_token'])
         self.chat_id = env_vars['chat_id']
 
     def process_item(self, item: Dict[str, Any], processor: FileProcessor) -> None:
@@ -367,14 +432,14 @@ class UploadManager:
 
         # 发送到 Telegram
         msg = self.bot.send_message(chat_id=self.chat_id, text=truncated)
-        logger.info(f"✓ 文本消息已发送: {msg.message_id}")
+        logger.info(f"✓ 文本消息已发送: {msg['message_id']}")
 
         # 同时发送到飞书（如果配置）
         if Config.get_env_vars()['lark_key']:
             success = Notifier.send_lark_message(truncated)  # 调用新方法
             if success:
                 logger.info(f"✓ 动态消息已同步至飞书")
-        return msg.message_id
+        return msg['message_id']
 
     def _send_media_file(self, item: Dict[str, Any], processor: FileProcessor) -> int:
         """发送媒体文件 (保持原始大小校验)"""
@@ -395,8 +460,14 @@ class UploadManager:
             else:
                 msg = self.bot.send_video(chat_id=self.chat_id, video=f, caption=caption)
 
-        logger.info(f"✓ 媒体文件已上传: {msg.message_id}")
-        return msg.message_id
+        logger.info(f"✓ 媒体文件已上传: {msg['message_id']}")
+
+        # 同步推送到飞书（如果配置），发送文本摘要
+        if Config.get_env_vars()['lark_key']:
+            success = Notifier.send_lark_message(caption)
+            if success:
+                logger.info(f"✓ 媒体动态已同步至飞书")
+        return msg['message_id']
 
     def _build_caption(self, item: Dict[str, Any]) -> str:
         """构建caption (保持原始优先级截断)"""

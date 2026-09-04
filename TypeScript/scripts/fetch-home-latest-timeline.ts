@@ -30,7 +30,7 @@ interface EnrichedTweet {
 interface ProcessConfig {
     /** 输出目录，默认'../tweets' */
     outputDir?: string;
-    /** API请求间隔(ms)，默认5000 */
+    /** API请求间隔(ms)，默认10000 */
     interval?: number;
     /** 关注用户配置文件路径 */
     followingPath?: string;
@@ -48,7 +48,7 @@ export async function processHomeTimeline(client: any, config: ProcessConfig = {
     const mergedConfig = await mergeConfigurations(config);
     const {
         outputDir = '../tweets',
-        interval = 5000,
+        interval = 10000,
         followingPath = '../data/followingUser.json',
         filterRetweets = true,  // 新增默认值
         filterQuotes = true      // 新增默认值
@@ -110,7 +110,7 @@ async function mergeConfigurations(cliConfig: ProcessConfig): Promise<ProcessCon
     // 默认配置
     const defaultConfig = {
         outputDir: '../tweets',
-        interval: 5000,
+        interval: 10000,
         followingPath: '../data/followingUser.json',
         filterRetweets: true,
         filterQuotes: true
@@ -202,10 +202,11 @@ async function fetchTweetPage(
     console.log('⏱️ 请求时间:', dayjs().tz(TZ_BEIJING).format('YYYY-MM-DD HH:mm:ss'));
     if (cursor) console.log(`📍 当前游标: ${cursor}`);
 
-    // 速率限制
+    // 速率限制（加随机抖动，降低风控特征）
     if (pageNum > 1) {
-        console.log(`⏸️ 等待 ${interval}ms...`);
-        await new Promise(resolve => setTimeout(resolve, interval));
+        const jittered = Math.round(interval * (0.7 + Math.random() * 0.6));
+        console.log(`⏸️ 等待 ${Math.round(jittered / 100) / 10} 秒...`);
+        await new Promise(resolve => setTimeout(resolve, jittered));
     }
 
     // API请求

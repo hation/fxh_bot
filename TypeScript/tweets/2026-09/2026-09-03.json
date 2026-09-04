@@ -1,0 +1,456 @@
+[
+  {
+    "user": {
+      "screenName": "GergelyOrosz",
+      "name": "Gergely Orosz"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/GergelyOrosz/status/2095432700660248799",
+    "fullText": "Every other system used for planning or managing or tracking the work tends to lose sight who they are building for.\n\nLinear stayed focus, and now when agents are part of how work gets done, they’re using the same philosophy.",
+    "publishTime": "2026-09-03T16:44:21"
+  },
+  {
+    "user": {
+      "screenName": "GergelyOrosz",
+      "name": "Gergely Orosz"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [
+      "https://newsletter.pragmaticengineer.com/p/linear"
+    ],
+    "tweetUrl": "https://x.com/GergelyOrosz/status/2095432750320754905",
+    "fullText": "Also, I knew the Uber engineer, Tuomas, before Linear, when he was at Uber, he worked with our team. Absolutely no nonsense. Interviewed him in 2022 on how Linear is run:\n\nhttps://t.co/7m8aVNDD2U",
+    "publishTime": "2026-09-03T16:44:33"
+  },
+  {
+    "user": {
+      "screenName": "xiaohu",
+      "name": "小互"
+    },
+    "images": [],
+    "videos": [
+      "https://video.twimg.com/amplify_video/2095442837651501056/vid/avc1/2494x1224/PI8Py1k0LnGxECVI.mp4?tag=29"
+    ],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/xiaohu/status/2095443120477647114",
+    "fullText": "Anthropic 开源了其一套可运行的 AI 电商 Agents 参考实现\n\n让电商平台、零售商和开发者在几天内快速搭建出真正能卖货、能管店的 AI Agent...\n\nAnthropic 称，使用 Claude 购物 Agent 的零售商，购物车金额最高增加 35%，消费者完成购买的可能性提高 60%。\n\n这套参考实现包含 Shopping Agent、Merchant https://t.co/80ftnkAMPp",
+    "publishTime": "2026-09-03T17:25:46"
+  },
+  {
+    "user": {
+      "screenName": "xiaohu",
+      "name": "小互"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [
+      "https://github.com/anthropics/commerce-agents/tree/fd4d59224ab96b43c6dc6888207c67b3bd5a24cf",
+      "https://claude.com/solutions/commerce",
+      "https://best.xiaohu.ai/article/claude-commerce-agents/"
+    ],
+    "tweetUrl": "https://x.com/xiaohu/status/2095443122729984494",
+    "fullText": "Anthropic 在 GitHub 仓库 中开源并提供了一套开箱即用的技术架构\n\nGitHub：https://t.co/JjUa6uGhqz\n\n在线体验：https://t.co/2pdtxDhln1\n\n详细解读：https://t.co/3a4RZS2bZp",
+    "publishTime": "2026-09-03T17:25:46"
+  },
+  {
+    "user": {
+      "screenName": "GergelyOrosz",
+      "name": "Gergely Orosz"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HRSLs9oXUAE-rRn.jpg"
+    ],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/GergelyOrosz/status/2095453567955968398",
+    "fullText": "Antigravity's terms of services make it crystal clear that if they determine you use Antigravity in a way they suspect is eg third-party usage (eg use OpenClaw), they can suspend your Google account.\n\nOne reason to NOT use Antigravity.\n\nI'm not taking this risk, sorry. https://t.co/B2fd3i5bxO",
+    "publishTime": "2026-09-03T18:07:16"
+  },
+  {
+    "user": {
+      "screenName": "GergelyOrosz",
+      "name": "Gergely Orosz"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [
+      "https://x.com/_mohansolo/status/2090368479866266079"
+    ],
+    "tweetUrl": "https://x.com/GergelyOrosz/status/2095455459025072375",
+    "fullText": "Btw it's factually false that only Antigravity account was affected. I had reports from folks for Gemini CLI banned (nothing to do with Antigravity!) when Antigravity banned them.\n\nMy Google account too valuable to risk it impacted by Antigravity usage\n\nhttps://t.co/igsMi02wZP",
+    "publishTime": "2026-09-03T18:14:47"
+  },
+  {
+    "user": {
+      "screenName": "vista8",
+      "name": "向阳乔木"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HRSSBAxbQAAVRFK.jpg",
+      "https://pbs.twimg.com/media/HRSS6Npa8AAVL9Z.jpg"
+    ],
+    "videos": [],
+    "expandUrls": [
+      "https://www.mingdao.com/landing/event/real-ai?code=GG66"
+    ],
+    "tweetUrl": "https://x.com/vista8/status/2095461744877637659",
+    "fullText": "友情推荐：一个面向真实企业场景的 AI 应用开发黑客松。\n\n主办方是明道云，国内老牌APaaS平台。\n\n（据说公司内AI学习交流氛围特别好）\n\n奖金池 8 万，已有 35 支参赛队伍，现招募更多个人开发者、工作室参赛。\n\n马上报名：\nhttps://t.co/lHksKtjqw4\n\n9月22日报名截止，10月31日上海决赛，评委靠谱。 https://t.co/lNznHXTLZX",
+    "publishTime": "2026-09-03T18:39:46"
+  },
+  {
+    "user": {
+      "screenName": "oran_ge",
+      "name": "Orange AI"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HRScC0kb0AAg5Kq.jpg",
+      "https://pbs.twimg.com/media/HRScC0kaEAAnTpP.jpg"
+    ],
+    "videos": [],
+    "expandUrls": [
+      "https://colaos.ai"
+    ],
+    "tweetUrl": "https://x.com/oran_ge/status/2095471385607020726",
+    "fullText": "Cola 手机版上线云端 Chat，电脑不开机也能和 Cola 随时聊天了\n还可以在电脑上打开记忆同步，让 Cola 随时随地在你身边\n目前 iOS 版本已经审核通过，大家可以在商店里直接搜索即可下载\n安卓可以在 https://t.co/K9517ktkDi 官网直接下载 https://t.co/8IT7qHfngD",
+    "publishTime": "2026-09-03T19:18:04"
+  },
+  {
+    "user": {
+      "screenName": "oran_ge",
+      "name": "Orange AI"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HRSgxsiaQAAOol-.jpg"
+    ],
+    "videos": [],
+    "expandUrls": [
+      "https://colaskill.com"
+    ],
+    "tweetUrl": "https://x.com/oran_ge/status/2095477563825279147",
+    "fullText": "Cola Skill 收藏了超多实用的 Agent Skill\n全部是社区和创作者们精心挑选\n每天都有新的 skill 推送\n找不到想要的 skill 的时候\n就可以来搜搜看\nhttps://t.co/4DUTNb2Ulf https://t.co/rKUKNtCAUt",
+    "publishTime": "2026-09-03T19:42:37"
+  },
+  {
+    "user": {
+      "screenName": "vista8",
+      "name": "向阳乔木"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HRSipykbEAA7Ttk.jpg"
+    ],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/vista8/status/2095478576854565188",
+    "fullText": "昨天开源的obsidian读书笔记插件得到了不少好评。\n\n最近两天忙，今天终于可以安心开始读书了。\n\n估计能发现更多bug，吃狗粮才是产品迭代的最佳路径。 https://t.co/GYz9cuPIdn",
+    "publishTime": "2026-09-03T19:46:39"
+  },
+  {
+    "user": {
+      "screenName": "xiaohu",
+      "name": "小互"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/xiaohu/status/2095483847924420775",
+    "fullText": "英伟达(NVDA.O)同意以129.303亿美元收购Hugging Face。",
+    "publishTime": "2026-09-03T20:07:36"
+  },
+  {
+    "user": {
+      "screenName": "lxfater",
+      "name": "铁锤人"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/lxfater/status/2095498360983793730",
+    "fullText": "你们用Codex干啥了？\n\n说实话普通人有必要装Codex吗？\n\n最近很多同学找我来安装Codex，说实话，你们用它赚到钱了吗？",
+    "publishTime": "2026-09-03T21:05:16"
+  },
+  {
+    "user": {
+      "screenName": "GergelyOrosz",
+      "name": "Gergely Orosz"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/GergelyOrosz/status/2095503123552915963",
+    "fullText": "I am sick and tired of Antigravity employees showing up and saying “it doesn’t happen! Antigravity bans don’t ban anything else!”\n\nYes they do, I have helped a dev whose Gemini account was banned get unbanned after escalating to @OfficialLoganK after this thread\n\nStop lying",
+    "publishTime": "2026-09-03T21:24:11"
+  },
+  {
+    "user": {
+      "screenName": "GergelyOrosz",
+      "name": "Gergely Orosz"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/GergelyOrosz/status/2095504603496284439",
+    "fullText": "IDK why founders or anyone working at a tech co bothers talking with journalists who don’t understand what a tech company is, never worked at one, and so they write stuff impossible to take seriously for anyone working in tech\n\nAnd those not in tech start hating said founders",
+    "publishTime": "2026-09-03T21:30:04"
+  },
+  {
+    "user": {
+      "screenName": "GergelyOrosz",
+      "name": "Gergely Orosz"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/GergelyOrosz/status/2095506196408979586",
+    "fullText": "These all come across as a “hit piece” not because the journalist wanted to write a hit piece, but because they are so utterly clueless about what they cover that they over focus on completely irrelevant details.\n\nOMG the founder of Pangram gave an interview in his lunch break,",
+    "publishTime": "2026-09-03T21:36:24"
+  },
+  {
+    "user": {
+      "screenName": "GergelyOrosz",
+      "name": "Gergely Orosz"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [
+      "https://x.com/karrisaarinen/status/2095523439700475957"
+    ],
+    "tweetUrl": "https://x.com/GergelyOrosz/status/2095524597449871635",
+    "fullText": "OK this is a fair point\n\nNeither side showed the other much respect or consideration, and so now the outcome is just bad\n\nEither do things with intention or don't bother at all. Anything other means subpar results\n\nhttps://t.co/jYmCse2MSS",
+    "publishTime": "2026-09-03T22:49:31"
+  },
+  {
+    "user": {
+      "screenName": "GergelyOrosz",
+      "name": "Gergely Orosz"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/GergelyOrosz/status/2095525483328745532",
+    "fullText": "Have we been using \"premature optimization is the root of all evil\" wrong, all this time? I always assumed this means \"you can perf optimize later\"\n\n@cmuratori says you can only do HOTSPOT optimization. If your arch was not built with perf in mind, you can only fix w a rewrite",
+    "publishTime": "2026-09-03T22:53:02"
+  },
+  {
+    "user": {
+      "screenName": "xiaohu",
+      "name": "小互"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/xiaohu/status/2095526822129881388",
+    "fullText": "ChatGPT 宕机了吗\n\n我要失业了",
+    "publishTime": "2026-09-03T22:58:22"
+  },
+  {
+    "user": {
+      "screenName": "vista8",
+      "name": "向阳乔木"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/vista8/status/2095527814267338963",
+    "fullText": "@xiaohu 宕机了。。",
+    "publishTime": "2026-09-03T23:02:18"
+  },
+  {
+    "user": {
+      "screenName": "vista8",
+      "name": "向阳乔木"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/vista8/status/2095528006232244580",
+    "fullText": "折腾半天，以为ChatGPT账号被封或线路问题。\n\n后来突然意识到，ChatGPT服务挂了。",
+    "publishTime": "2026-09-03T23:03:04"
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2095528299090854111",
+    "fullText": "It is indeed a disgrace. Those publications have an obligation to adhere to the truth and yet have become woke propaganda outlets.",
+    "publishTime": "2026-09-03T23:04:14"
+  },
+  {
+    "user": {
+      "screenName": "lxfater",
+      "name": "铁锤人"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HRTPPHca4AAJ4dh.jpg"
+    ],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/lxfater/status/2095528494059208896",
+    "fullText": "卧槽，用了这个提示词后，别说去AI味，妥妥大文豪\n\n之前文科生说有AI后，理科生没优势\n\n现在文科生的文采AI也能模仿出来了😂\n\n我看也文理科都没啥优势了🤡 https://t.co/xM8LNB7COr",
+    "publishTime": "2026-09-03T23:05:00"
+  },
+  {
+    "user": {
+      "screenName": "oran_ge",
+      "name": "Orange AI"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/oran_ge/status/2095530415457190096",
+    "fullText": "AI 大断电\n迎接 AGI？",
+    "publishTime": "2026-09-03T23:12:38"
+  },
+  {
+    "user": {
+      "screenName": "vista8",
+      "name": "向阳乔木"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/vista8/status/2095530775978635745",
+    "fullText": "有点可悲，海外大模型不可用。\n\n中国用户第一反应估计是：\n\n我的代理有问题？我的账号被封了？",
+    "publishTime": "2026-09-03T23:14:04"
+  },
+  {
+    "user": {
+      "screenName": "xiaohu",
+      "name": "小互"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/xiaohu/status/2095531108201111723",
+    "fullText": "今晚发布GPT 6",
+    "publishTime": "2026-09-03T23:15:23"
+  },
+  {
+    "user": {
+      "screenName": "vista8",
+      "name": "向阳乔木"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/vista8/status/2095532101319938132",
+    "fullText": "大模型停用了，都出来乘凉啊！",
+    "publishTime": "2026-09-03T23:19:20"
+  },
+  {
+    "user": {
+      "screenName": "lxfater",
+      "name": "铁锤人"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/lxfater/status/2095533593061937545",
+    "fullText": "来了来了，openai的最新模型，要来了",
+    "publishTime": "2026-09-03T23:25:16"
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2095535385430356046",
+    "fullText": "True",
+    "publishTime": "2026-09-03T23:32:23"
+  },
+  {
+    "user": {
+      "screenName": "yoheinakajima",
+      "name": "Yohei"
+    },
+    "images": [
+      "https://pbs.twimg.com/media/HRTWz97awAAE2QA.jpg"
+    ],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/yoheinakajima/status/2095535918497386989",
+    "fullText": "without your precious ai tools… https://t.co/LsXrwv2t7h",
+    "publishTime": "2026-09-03T23:34:30"
+  },
+  {
+    "user": {
+      "screenName": "GergelyOrosz",
+      "name": "Gergely Orosz"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/GergelyOrosz/status/2095536808385786237",
+    "fullText": "Btw I’m talking about journalists who don’t have a clue\n\nThere are some who are good, sharp, educated themselves, self-study, and keep up.\n\nJust read what articles they wrote beforehand\n\nDYOR and if you don’t, well why didn’t you",
+    "publishTime": "2026-09-03T23:38:02"
+  },
+  {
+    "user": {
+      "screenName": "lxfater",
+      "name": "铁锤人"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/lxfater/status/2095538479317012936",
+    "fullText": "稳的👍",
+    "publishTime": "2026-09-03T23:44:41"
+  },
+  {
+    "user": {
+      "screenName": "elonmusk",
+      "name": "Elon Musk"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/elonmusk/status/2095541022365266094",
+    "fullText": "Humans writing code as seen by future AI",
+    "publishTime": "2026-09-03T23:54:47"
+  },
+  {
+    "user": {
+      "screenName": "GergelyOrosz",
+      "name": "Gergely Orosz"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/GergelyOrosz/status/2095541086454173722",
+    "fullText": "Asked Codex to create a simple web page with a single image in the middle, with the same background as the image b/c I'm lazy\n\nGot to work, worked 3 minutes\n\nCame back asking if it can install a gazillion node modules\n\nI would have been faster typing out those 5 HTML lines myself",
+    "publishTime": "2026-09-03T23:55:02"
+  },
+  {
+    "user": {
+      "screenName": "GergelyOrosz",
+      "name": "Gergely Orosz"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/GergelyOrosz/status/2095541689163055558",
+    "fullText": "It installed Nextjs, ESlint, tests, even Drizzle (!!)\n\nHurts me to think how many tokens wasted, but at least it was only 3 minutes",
+    "publishTime": "2026-09-03T23:57:26"
+  },
+  {
+    "user": {
+      "screenName": "GergelyOrosz",
+      "name": "Gergely Orosz"
+    },
+    "images": [],
+    "videos": [],
+    "expandUrls": [],
+    "tweetUrl": "https://x.com/GergelyOrosz/status/2095542254467268708",
+    "fullText": "... and it STILL got the background color wrong!!\n\nJust used Chrome dev tools to sample the color, update the HTML\n\nYou know what I'll just hand roll simple stuff next time. I guess I'm still better than the model at this, ha!",
+    "publishTime": "2026-09-03T23:59:41"
+  }
+]

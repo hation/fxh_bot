@@ -36,7 +36,7 @@ interface ProcessConfig {
     outputDir?: string;
     /** 是否强制刷新用户信息，默认 false */
     forceRefresh?: boolean;
-    /** 请求间隔时间（毫秒），默认 5000 */
+    /** 请求间隔时间（毫秒），默认 20000（含随机抖动） */
     interval?: number;
     /** 分页限制数量，默认不限制 */
     limit?: number;
@@ -144,8 +144,8 @@ async function loadAndMergeConfig(cliConfig: ProcessConfig): Promise<ProcessConf
         contentType: 'tweets',
         outputDir: '../resp/respTweets',
         forceRefresh: false,
-        interval: 5000,
-        limit: Infinity,
+        interval: 20000,
+        limit: 300,
         filterRetweets: true,
         filterQuotes: true
     };
@@ -248,10 +248,9 @@ async function processTweets(
         console.log(`🎯 目标用户ID: ${userId}`);
         if (cursor) console.log(`📍 当前游标: ${cursor}`);
 
-        // 间隔控制
+        // 间隔控制（加随机抖动，降低风控特征）
         if (pageCount > 1) {
-            console.log(`⏸️ 等待 ${options.interval / 1000} 秒...`);
-            await new Promise(r => setTimeout(r, options.interval));
+            await sleepWithJitter(options.interval);
         }
 
         const apiHandler = {
@@ -622,4 +621,13 @@ async function* tweetCursor(
  */
 function convertToBeijingTime(dateStr: string): dayjs.Dayjs {
     return dayjs(dateStr).tz(TZ_BEIJING);
+}
+
+/**
+ * 带随机抖动的等待（base * [0.7, 1.3]），避免固定间隔被风控识别
+ */
+async function sleepWithJitter(baseMs: number): Promise<void> {
+    const jittered = Math.round(baseMs * (0.7 + Math.random() * 0.6));
+    console.log(`⏸️ 等待 ${Math.round(jittered / 100) / 10} 秒...`);
+    await new Promise(r => setTimeout(r, jittered));
 }
