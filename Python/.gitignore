@@ -24,6 +24,9 @@ htmlcov/
 dist/
 build/
 
+# 运行时下载的媒体缓存
+downloads/
+
 # 其他
 *.log
 *.so
