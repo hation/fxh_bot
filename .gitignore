@@ -9,7 +9,9 @@
 
 # Docker 相关
 docker-compose.yml  # 如果不需要忽略
-!.env  # 保留环境变量文件
+
+# 本地环境变量（含真实密钥，禁止提交）
+.env
 
 .idea/
 *logs/
